@@ -104,7 +104,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-`])));r(i||(i=a(["",""],["",""])),l);var o,i;const b=r`
+`])));r(i||(i=a(["",""],["",""])),l);var o,i;const m=r`
   ${l}
 
   *{
@@ -114,7 +114,7 @@ table {
   html{
     font-size: 62.5%;
   }
-`,m={typography:{heading:`
+`,f={typography:{heading:`
       font-family: Noto Sans;
       font-size: 2rem;
       font-weight: 800;
@@ -139,4 +139,9 @@ table {
       font-size: 1.6rem;
       font-weight: 700;
       line-height: 1.6rem;
-    `},color:{black:"#000000",white:"#ffffff",lightGray:"#BEBEBE",black10:"#0000001A"}},g={parameters:{controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}}},y=[e=>n.jsxs(d,{theme:m,children:[n.jsx(b,{}),n.jsx(c,{children:n.jsx(e,{})})]})];export{y as decorators,g as default};
+    `,labelTitle:`
+      font-family: Noto Sans KR;
+      font-weight: 700;
+      line-height: 2.606rem;
+      font-size: 1.8rem;  
+    `},color:{black:"#000000",white:"#ffffff",lightGray:"#BEBEBE",black10:"#0000001A"}},g={parameters:{controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}}},y=[e=>n.jsxs(d,{theme:f,children:[n.jsx(m,{}),n.jsx(c,{children:n.jsx(e,{})})]})];export{y as decorators,g as default};

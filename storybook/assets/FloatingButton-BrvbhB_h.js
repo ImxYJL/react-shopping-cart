@@ -1,5 +1,5 @@
 import{p as e,j as r}from"./styled-components.browser.esm-C_jzoV4G.js";const n=e.button`
-  position: sticky;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 6.4rem;

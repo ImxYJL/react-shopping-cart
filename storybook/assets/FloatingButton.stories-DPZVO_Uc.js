@@ -1,4 +1,4 @@
-import{F as c}from"./FloatingButton-8FbaUajh.js";import"./styled-components.browser.esm-C_jzoV4G.js";import"./index-l2PZgWEW.js";const d={title:"FloatingButton",component:c},r={args:{label:"주문 확인"}},e={args:{label:"주문 확인",disabled:!0}};var a,s,o;r.parameters={...r.parameters,docs:{...(a=r.parameters)==null?void 0:a.docs,source:{originalSource:`{
+import{F as c}from"./FloatingButton-BrvbhB_h.js";import"./styled-components.browser.esm-C_jzoV4G.js";import"./index-l2PZgWEW.js";const d={title:"FloatingButton",component:c},r={args:{label:"주문 확인"}},e={args:{label:"주문 확인",disabled:!0}};var a,s,o;r.parameters={...r.parameters,docs:{...(a=r.parameters)==null?void 0:a.docs,source:{originalSource:`{
   args: {
     label: '주문 확인'
   }
