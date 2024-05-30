@@ -1,11 +1,14 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import PaymentTotal from './PaymentTotal';
-import { KEYS } from '../../constants/constants';
+import { KEY } from '../../constants/constants';
 import { RecoilRoot, atom } from 'recoil';
 
 const meta = {
   title: 'PaymentTotal',
   component: PaymentTotal,
+  args: {
+    isUseDiscount: false,
+  },
 } satisfies Meta<typeof PaymentTotal>;
 
 export default meta;
@@ -13,7 +16,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 const priceInfoState = atom({
-  key: KEYS.PRICE_INFO,
+  key: KEY.PRICE_INFO,
 });
 
 export const 기본: Story = {
