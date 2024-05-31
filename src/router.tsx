@@ -31,7 +31,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: 'https://ImxYJL.github.io/react-shopping-products/',
+    basename: 'https://imxyjl.github.io/react-shopping-products/',
   },
 );
 
